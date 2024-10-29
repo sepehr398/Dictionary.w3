@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-wrapper">
+    <h2 class="form-title">Dictionary</h2>
+    <div class="button-row">
+        <button class="top-button" id="clear-btn">Clear</button>
+        <button class="top-button" id="save-btn">Save</button>
+        <button class="top-button" id="shuffle-btn">Shuffle</button>
+
+    </div>
+    
+    <div class="form-container">
+        <div id="form-rows">
+        </div>
+        <div class="button-container">
+            <button class="add-row-btn" id="add-row-btn">
+                <span>+</span>
+            </button>
+            <button class="remove-row-btn" id="remove-row-btn">
+                <span>−</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="pagination-container">
+        <button id="prev-page" class="pagination-btn">&laquo; Prev</button>
+        <div id="pagination-numbers" class="pagination-numbers"></div>
+        <button id="next-page" class="pagination-btn">Next &raquo;</button>
+    </div>
+    
+</div>
+<div id="save-notification">Data saved successfully!</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
